@@ -161,6 +161,6 @@ Released under **GPL-2.0-or-later**. See [LICENSE](LICENSE).
 
 Author: **Antonio Troise (Levysoft)**  
 Plugin website: https://www.levysoft.it/  
-Author website: https://levysoft.it/
+Author website: https://www.levysoft.it/
 
 Inspired by [Alex (nytpu), *Fancy Curl Sites*](https://nytpu.com/gemlog/2026-03-18), and by the earlier terminal-site experiments mentioned there.
