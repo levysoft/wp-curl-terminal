@@ -1,0 +1,180 @@
+# Translations template for WP Curl Terminal.
+# Copyright (C) 2026 Antonio Troise (Levysoft)
+# This file is distributed under the same license as the WP Curl Terminal
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Curl Terminal 1.2.1\n"
+"Report-Msgid-Bugs-To: https://www.levysoft.it/\n"
+"POT-Creation-Date: 2026-10-15 19:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid " | Author: %s"
+msgstr ""
+
+msgid "(No text content)"
+msgstr ""
+
+msgid "404 | Page not found"
+msgstr ""
+
+msgid "ANSI colors"
+msgstr ""
+
+msgid "Activation"
+msgstr ""
+
+msgid "Amber"
+msgstr ""
+
+msgid "Automatic detection"
+msgstr ""
+
+msgid ""
+"Automatically serve terminal-friendly ANSI content to curl visitors without "
+"modifying your WordPress theme."
+msgstr ""
+
+msgid "Cache"
+msgstr ""
+
+msgid "Category: %1$s (%2$s)"
+msgstr ""
+
+msgid "Content unavailable."
+msgstr ""
+
+msgid "Cyan and yellow"
+msgstr ""
+
+msgid "Enable terminal pages"
+msgstr ""
+
+msgid "Explore"
+msgstr ""
+
+msgid "For posts: curl -L <post URL>"
+msgstr ""
+
+msgid "Generate the banner from the WordPress site title"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+#, python-format
+msgid "Homepage: %s"
+msgstr ""
+
+msgid ""
+"If you use a caching plugin, CDN, or hosting HTML cache, configure a bypass "
+"for curl requests and ?terminal=. No-cache headers alone cannot bypass a "
+"cache that responds before WordPress runs."
+msgstr ""
+
+msgid "Latest posts"
+msgstr ""
+
+msgid "Links"
+msgstr ""
+
+msgid "Monochrome"
+msgstr ""
+
+#, python-format
+msgid "Next page: %s"
+msgstr ""
+
+msgid "No public posts available."
+msgstr ""
+
+#, python-format
+msgid "Original HTML: curl -L -H \"X-Original: true\" %s"
+msgstr ""
+
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+msgid "Posts on the homepage"
+msgstr ""
+
+msgid "Preview plain text in your browser"
+msgstr ""
+
+msgid ""
+"Provides a colorful terminal-friendly view of public WordPress content for "
+"curl clients, without changing the normal website."
+msgstr ""
+
+#, python-format
+msgid "Published: %s"
+msgstr ""
+
+msgid "Recognize the curl User-Agent"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+#, python-format
+msgid "Search: %s"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid ""
+"Shortcodes and dynamic blocks are not executed in terminal mode. Content "
+"produced by other plugins or page builders may be only partially rendered."
+msgstr ""
+
+msgid "Show full URLs in post listings"
+msgstr ""
+
+msgid "Site ASCII logo"
+msgstr ""
+
+msgid "This content is password protected. Open it in a browser."
+msgstr ""
+
+msgid "Try it now"
+msgstr ""
+
+msgid ""
+"Uses the site title from Settings > General. Long names or unsupported "
+"characters fall back to a compact banner."
+msgstr ""
+
+#, python-format
+msgid "Web version: %s"
+msgstr ""
+
+#, python-format
+msgid "Website: %s"
+msgstr ""
+
+msgid ""
+"You can also request terminal output using ?terminal=1 or Accept: "
+"text/x-ansi."
+msgstr ""
+
+#, python-format
+msgid "[Image: %s]"
+msgstr ""
+
+msgid "original HTML"
+msgstr ""
+
+msgid "without ANSI codes"
+msgstr ""
+

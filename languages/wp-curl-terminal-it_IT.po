@@ -1,0 +1,195 @@
+# Italian (Italy) translations for WP Curl Terminal.
+# Copyright (C) 2026 Antonio Troise (Levysoft)
+# This file is distributed under the same license as the WP Curl Terminal
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Curl Terminal 1.2.1\n"
+"Report-Msgid-Bugs-To: https://www.levysoft.it/\n"
+"POT-Creation-Date: 2026-10-15 19:04+0000\n"
+"PO-Revision-Date: 2026-10-15 00:00+0000\n"
+"Last-Translator: Antonio Troise (Levysoft)\n"
+"Language: it_IT\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#, python-format
+msgid " | Author: %s"
+msgstr " | Autore: %s"
+
+msgid "(No text content)"
+msgstr "(Nessun contenuto testuale)"
+
+msgid "404 | Page not found"
+msgstr "404 | Pagina non trovata"
+
+msgid "ANSI colors"
+msgstr "Colori ANSI"
+
+msgid "Activation"
+msgstr "Attivazione"
+
+msgid "Amber"
+msgstr "Ambra"
+
+msgid "Automatic detection"
+msgstr "Rilevamento automatico"
+
+msgid ""
+"Automatically serve terminal-friendly ANSI content to curl visitors without "
+"modifying your WordPress theme."
+msgstr ""
+"Servi automaticamente contenuti WordPress in formato ANSI ai visitatori che "
+"usano curl, senza modificare il tema."
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid "Category: %1$s (%2$s)"
+msgstr "Categoria: %1$s (%2$s)"
+
+msgid "Content unavailable."
+msgstr "Contenuto non disponibile."
+
+msgid "Cyan and yellow"
+msgstr "Ciano e giallo"
+
+msgid "Enable terminal pages"
+msgstr "Abilita le pagine terminale"
+
+msgid "Explore"
+msgstr "Esplora"
+
+msgid "For posts: curl -L <post URL>"
+msgstr "Per gli articoli: curl -L <URL di un articolo>"
+
+msgid "Generate the banner from the WordPress site title"
+msgstr "Genera automaticamente il banner dal titolo del sito WordPress"
+
+msgid "Green"
+msgstr "Verde"
+
+#, python-format
+msgid "Homepage: %s"
+msgstr "Homepage: %s"
+
+msgid ""
+"If you use a caching plugin, CDN, or hosting HTML cache, configure a bypass "
+"for curl requests and ?terminal=. No-cache headers alone cannot bypass a "
+"cache that responds before WordPress runs."
+msgstr ""
+"Se usi un plugin di cache, una CDN o una cache HTML dell’hosting, configura "
+"un’esclusione per le richieste curl e ?terminal=. Le intestazioni no-cache "
+"non possono aggirare una cache che risponde prima di WordPress."
+
+msgid "Latest posts"
+msgstr "Ultimi articoli"
+
+msgid "Links"
+msgstr "Collegamenti"
+
+msgid "Monochrome"
+msgstr "Monocromatico"
+
+#, python-format
+msgid "Next page: %s"
+msgstr "Pagina successiva: %s"
+
+msgid "No public posts available."
+msgstr "Nessun articolo pubblico disponibile."
+
+#, python-format
+msgid "Original HTML: curl -L -H \"X-Original: true\" %s"
+msgstr "HTML originale: curl -L -H \"X-Original: true\" %s"
+
+msgid "Page %1$d of %2$d"
+msgstr "Pagina %1$d di %2$d"
+
+msgid "Posts on the homepage"
+msgstr "Articoli in homepage"
+
+msgid "Preview plain text in your browser"
+msgstr "Anteprima testuale nel browser"
+
+msgid ""
+"Provides a colorful terminal-friendly view of public WordPress content for "
+"curl clients, without changing the normal website."
+msgstr ""
+"Offre una versione testuale colorata dei contenuti pubblici di WordPress per"
+" i client curl, senza modificare il sito normale."
+
+#, python-format
+msgid "Published: %s"
+msgstr "Pubblicato: %s"
+
+msgid "Recognize the curl User-Agent"
+msgstr "Riconosci lo User-Agent curl"
+
+msgid "Save settings"
+msgstr "Salva impostazioni"
+
+#, python-format
+msgid "Search: %s"
+msgstr "Ricerca: %s"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid ""
+"Shortcodes and dynamic blocks are not executed in terminal mode. Content "
+"produced by other plugins or page builders may be only partially rendered."
+msgstr ""
+"Gli shortcode e i blocchi dinamici non vengono eseguiti nella versione "
+"terminale. I contenuti generati da altri plugin e page builder potrebbero "
+"essere visualizzati solo parzialmente."
+
+msgid "Show full URLs in post listings"
+msgstr "Mostra gli URL completi nell’elenco articoli"
+
+msgid "Site ASCII logo"
+msgstr "Logo ASCII del sito"
+
+msgid "This content is password protected. Open it in a browser."
+msgstr "Questo contenuto è protetto da password. Aprilo nel browser."
+
+msgid "Try it now"
+msgstr "Prova subito"
+
+msgid ""
+"Uses the site title from Settings > General. Long names or unsupported "
+"characters fall back to a compact banner."
+msgstr ""
+"Utilizza il titolo definito in Impostazioni > Generali. Per nomi lunghi o "
+"caratteri non supportati compare un banner compatto."
+
+#, python-format
+msgid "Web version: %s"
+msgstr "Versione web: %s"
+
+#, python-format
+msgid "Website: %s"
+msgstr "Sito web: %s"
+
+msgid ""
+"You can also request terminal output using ?terminal=1 or Accept: "
+"text/x-ansi."
+msgstr ""
+"Puoi anche chiedere esplicitamente il formato con ?terminal=1 o Accept: "
+"text/x-ansi."
+
+#, python-format
+msgid "[Image: %s]"
+msgstr "[Immagine: %s]"
+
+msgid "original HTML"
+msgstr "HTML originale"
+
+msgid "without ANSI codes"
+msgstr "senza codici ANSI"
+
