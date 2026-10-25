@@ -159,6 +159,6 @@ Distribuito con licenza **GPL-2.0-or-later**. Vedi [LICENSE](LICENSE).
 
 Autore: **Antonio Troise (Levysoft)**  
 Sito del plugin: https://www.levysoft.it/  
-Sito dell'autore: https://levysoft.it/
+Sito dell'autore: https://www.levysoft.it/
 
 Ispirato a [*Fancy Curl Sites* di Alex (nytpu)](https://nytpu.com/gemlog/2026-03-18) e agli esperimenti precedenti citati nel suo articolo.
