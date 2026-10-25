@@ -73,6 +73,40 @@ curl -L -H 'X-Original: true' https://www.levysoft.it/
 curl -L -H 'Accept: text/html' https://www.levysoft.it/
 ```
 
+## Perché usare `-L`?
+
+Per impostazione predefinita, `curl` non segue automaticamente i reindirizzamenti HTTP. Alcuni siti WordPress reindirizzano da `http://` a `https://` oppure tra indirizzi con e senza `www`. Per esempio, richiedendo un articolo di Levysoft con HTTP, Apache restituisce la pagina `301 Moved Permanently` anziché l'articolo formattato con i colori ANSI:
+
+```bash
+curl http://www.levysoft.it/dizionario-ai/
+```
+
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.levysoft.it/dizionario-ai/">here</a>.</p>
+<hr>
+<address>Apache Server at www.levysoft.it Port 80</address>
+</body></html>
+```
+
+Con `-L`, `curl` segue il reindirizzamento verso HTTPS e raggiunge WordPress, che può mostrare l'articolo nella versione terminale:
+
+```bash
+curl -L http://www.levysoft.it/dizionario-ai/
+```
+
+```text
+============================================================
+  Dizionario dell’Intelligenza Artificiale
+============================================================
+```
+
+Lo stesso comportamento riguarda la homepage. Se l'indirizzo richiesto restituisce già il contenuto senza reindirizzamenti, come `https://www.levysoft.it/`, `-L` non genera richieste HTTP aggiuntive. Per questo negli esempi del README ho preferito mantenere sempre l'opzione `-L`.
+
 Quando un articolo è lungo, conviene paginare l'output con **`less -R`**, che mantiene i colori ANSI supportati e permette di scorrere il testo in entrambe le direzioni o cercare una parola:
 
 ```bash
@@ -113,7 +147,7 @@ La modalità terminale è pensata per contenuti pubblicati e accessibili senza a
 ## Download e codice sorgente
 
 - [Ultima release con ZIP installabile](https://github.com/levysoft/wp-curl-terminal/releases/latest)
-- [Download ZIP diretto da Levysoft](https://www.levysoft.it/download/wp-curl-terminal.zip)
+- [Download ZIP diretto da Levysoft](https://www.levysoft.it/plugin_levysoft/wp-curl-terminal-v1.2.1.zip)
 - [Repository GitHub e segnalazione problemi](https://github.com/levysoft/wp-curl-terminal)
 - [Sito Levysoft](https://www.levysoft.it/)
 
